@@ -304,6 +304,7 @@ input, select, textarea {
 		}
 
 		.row.aln-center {
+		
 			justify-content: center;
 		}
 
@@ -1697,7 +1698,7 @@ input, select, textarea {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #43bff0;
+			background-color: #4eadb4;
 			color: #fff !important;
 		}
 
@@ -1706,8 +1707,9 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #3BA8D3;
+			background-color: #44a1b4;
 			top: 1px;
+			box-shadow: inset 0px 0px 0px 1px #242424, inset 0px 2px 1px 0px rgba(255, 255, 255, 0.2);
 		}
 
 		input[type="button"].large,
@@ -1735,6 +1737,7 @@ input, select, textarea {
 			.button.alt:hover {
 				background-color: #4eadb4;
 				color: #fff !important;
+
 			}
 
 			input[type="button"].alt:active,
@@ -1743,6 +1746,7 @@ input, select, textarea {
 			button.alt:active,
 			.button.alt:active {
 				background-color: #3f3f3f;
+
 			}
 
 /* List */
